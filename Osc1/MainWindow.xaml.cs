@@ -23,6 +23,7 @@ namespace Osc1
         private void button_Click(object sender, RoutedEventArgs e)
             //hallo
             // 1
+            // 2 hinzu
         {
             tone = new WaveTone(1000, 0.5);
             stream = new BlockAlignReductionStream(tone);
