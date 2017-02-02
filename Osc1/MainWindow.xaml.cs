@@ -21,6 +21,7 @@ namespace Osc1
         private WaveTone tone;
 
         private void button_Click(object sender, RoutedEventArgs e)
+            //hallo
         {
             tone = new WaveTone(1000, 0.5);
             stream = new BlockAlignReductionStream(tone);
